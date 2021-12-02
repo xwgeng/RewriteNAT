@@ -1,5 +1,5 @@
 # RewriteNAT
-This repo provides the code for reproducing our proposed RewriteNAT in EMNLP 2021 paper entitled "[Learning to Rewrite for Non-Autoregressive Neural Machine Translation](https://aclanthology.org/2021.emnlp-main.265)". RewriteNAT is a iterative NAT model that which utilizes a locator component to explicitly learn to rewrite the erroneous translation pieces during iterative decoding.
+This repo provides the code for reproducing our proposed RewriteNAT in EMNLP 2021 paper entitled "[Learning to Rewrite for Non-Autoregressive Neural Machine Translation](https://aclanthology.org/2021.emnlp-main.265)". RewriteNAT is a iterative NAT model which utilizes a locator component to explicitly learn to rewrite the erroneous translation pieces during iterative decoding.
 <p align="center">
   <img src="architecture.png">
 </p>
