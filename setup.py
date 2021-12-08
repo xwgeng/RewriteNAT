@@ -49,18 +49,6 @@ extensions = [
         ],
         extra_compile_args=extra_compile_args,
     ),
-    NumpyExtension(
-        'fairseq.data.data_utils_fast',
-        sources=['fairseq/data/data_utils_fast.pyx'],
-        language='c++',
-        extra_compile_args=extra_compile_args,
-    ),
-    NumpyExtension(
-        'fairseq.data.token_block_utils_fast',
-        sources=['fairseq/data/token_block_utils_fast.pyx'],
-        language='c++',
-        extra_compile_args=extra_compile_args,
-    ),
 ]
 
 
