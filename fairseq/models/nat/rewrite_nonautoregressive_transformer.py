@@ -102,7 +102,7 @@ class RewriteNATransformerModel(NATransformerModel):
 
     @classmethod
     def build_decoder(cls, args, tgt_dict, embed_tokens):
-        decoder = L2RNATransformerDecoder(args, tgt_dict, embed_tokens)
+        decoder = RewriteNATransformerDecoder(args, tgt_dict, embed_tokens)
         if getattr(args, "apply_bert", False):
             decoder.apply(init_bert_params)
         return decoder
