@@ -61,7 +61,7 @@ python train.py \
 ```
 
 ## Evaluation
-We evaluate performance with [BLEU](https://aclanthology.org/P02-1040) for all language pairs, except for En→>Zh, where we use [SacreBLEU](https://www.aclweb.org/anthology/W18-6319). The testing scripts `test.rewrite.nat.sh` is utilized to generate the translations, as follows:
+We evaluate performance with [BLEU](https://aclanthology.org/P02-1040) for all language pairs, except for En->Zh, where we use [SacreBLEU](https://www.aclweb.org/anthology/W18-6319). The testing scripts `test.rewrite.nat.sh` is utilized to generate the translations, as follows:
 ```bash
 python generate.py \                                            
     data-bin/${dataset} \                                          
